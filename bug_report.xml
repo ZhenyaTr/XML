@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+  <bug_report>
+    <id> 1 </id>
+	    <summary> the button on the registration page is not pressed after entering valid data </summary>
+	     <version> bild 325 </version>
+	     <severity> blocker </severity> 
+	     <priority> high </priority>
+	     <status> new </status>
+	     <author> Maximov </author>
+	     <assigned_to> Tutunov </assigned_to>
+	     <description> Chrome 98.0.4758.102 64 bit Windows 10 </description>
+	     <attachment> http//ssilka </attachment>
+  </bug_report>
