@@ -1,0 +1,83 @@
+XML
+ 21. Создать внешний репозиторий c названием XML. === Create a new repository XML.
+ 
+ 22. Клонировать репозиторий XML на локальный компьютер. === git clone https://github.com/ZhenyaTr/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”. === cd XML/, touch new.xml
+ 
+ 24. Добавить файл под гит. === git add new.xml
+
+ 25. Закоммитить файл. === git commit -m "add new.xml"
+ 
+ 26. Отправить файл на внешний GitHub репозиторий. ===  git push
+ 
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе 
+ (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+ Всё написать в формате XML. === vim new.xml, в vim I
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+<info>
+        <name> Mark Markov </name>
+        <age> 25 </age>
+        <animals> 5 </animals>
+        <salary> 3000 </salary>
+</info>
+Esc, : wq
+ 
+ 28. Отправить изменения на внешний репозиторий. ===
+ git status, git add new.xml, 
+ git commit new.xml -m "add fotmat xml", git push
+ 
+ 29. Создать файл preferences.xml === touch preferences.json
+ 
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях 
+ (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
+ сторона которую хотели бы посетить) в формате XML. === vim preferences.xml, в vim I 
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+<aboutme>
+        <favorite_movie> KinDzaDza </favorite_movie>
+        <favorite_series> Bridge </favorite_series>
+        <favorite_food> pasta </favorite_food>
+        <favorite_time_of_year> spring </favorite_time_of_year>
+        <country> New Zealand </country>
+</aboutme> 
+ 
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ touch sklls.xml, vim sklls.xml, I 
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+<mysklls>
+        <sklls> Postman Jmeter CheckLists Bag Reports SQL Charles Mobile testing </sklls>
+</mysklls>
+
+Esc, : wq
+
+ 32. Сделать коммит в одну строку. === git status,  git add ., git commit -m "add  2 files"
+ 
+ 33. Отправить сразу 2 файла на внешний репозиторий. === git push
+ 
+ 34. На веб интерфейсе создать файл bug_report.xml. === Add file bug_report.json 
+ 
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.=== Commit new file
+ 
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+  <bug_report>
+    <id> 1 </id>
+	    <summary> the button on the registration page is not pressed after entering valid data </summary>
+	     <version> bild 325 </version>
+	     <severity> blocker </severity> 
+	     <priority> high </priority>
+	     <status> new </status>
+	     <author> Maximov </author>
+	     <assigned_to> Tutunov </assigned_to>
+	     <description> Chrome 98.0.4758.102 64 bit Windows 10 </description>
+	     <attachment> http//ssilka </attachment>
+  </bug_report>
+ 
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. ==== Commit changes
+ 
+ 38. Синхронизировать внешний и локальный репозиторий XML === git pull на внешнем в git bush
+
